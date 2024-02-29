@@ -1,0 +1,15 @@
+%%
+n = 30;
+for i = 1:1:n
+        v(n+1-i) = i;
+    if mod(i,2) == 1
+        v(n+1-i) = sin(i);
+    elseif mod(i,2) == 0
+        v()
+        %aux = v(i)
+        %v(i) = v(n-i);
+        %v(n-i) = aux;
+    end
+end
+v
+%%
